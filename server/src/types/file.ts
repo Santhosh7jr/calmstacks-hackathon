@@ -1,0 +1,18 @@
+export type SupportedExtension =
+  | ".jpg"
+  | ".jpeg"
+  | ".png"
+  | ".gif"
+  | ".bmp"
+  | ".tif"
+  | ".tiff"
+  | ".webp"
+  | ".ico"
+  | ".ppm"
+  | ".pgm"
+  | ".pbm"
+  | ".pnm"
+  | ".jp2"
+  | ".pdf"
+  | ".docx"
+  | ".zip";

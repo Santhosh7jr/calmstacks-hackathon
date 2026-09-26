@@ -1,0 +1,257 @@
+# =========================================================
+# NODE / EXPRESS / REACT
+# =========================================================
+
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Build output
+dist/
+build/
+out/
+.next/
+.nuxt/
+
+# Vite
+.vite/
+
+# TypeScript
+*.tsbuildinfo
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Coverage
+coverage/
+.nyc_output/
+
+# Cache
+.cache/
+.parcel-cache/
+.eslintcache/
+
+# =========================================================
+# REACT / FRONTEND
+# =========================================================
+
+# React build
+client/build/
+client/dist/
+
+# Vite build
+client/.vite/
+
+# Frontend environment files
+client/.env
+client/.env.local
+client/.env.development.local
+client/.env.test.local
+client/.env.production.local
+
+# =========================================================
+# EXPRESS / BACKEND
+# =========================================================
+
+# Backend environment files
+server/.env
+server/.env.local
+server/.env.development
+server/.env.production
+
+# Backend build
+server/dist/
+
+# Logs
+server/logs/
+server/*.log
+
+# =========================================================
+# PYTHON / FLASK
+# =========================================================
+
+# Python cache
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+
+# Python compiled files
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Flask
+instance/
+.webassets-cache/
+
+# Flask environment
+api/.env
+api/.env.local
+
+# Python logs
+*.log
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Ruff
+.ruff_cache/
+
+# =========================================================
+# JUPYTER
+# =========================================================
+
+.ipynb_checkpoints/
+
+# =========================================================
+# MACHINE LEARNING
+# =========================================================
+
+# Model files
+*.joblib
+!api/ml/models/**/*.joblib
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+*.onnx
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# Large datasets
+*.csv
+*.tsv
+*.jsonl
+*.parquet
+*.feather
+
+# ML experiment / cache directories
+mlruns/
+wandb/
+runs/
+checkpoints/
+
+# =========================================================
+# DATABASE
+# =========================================================
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# PostgreSQL dumps
+*.sql.gz
+*.dump
+
+# =========================================================
+# UPLOADS / GENERATED FILES
+# =========================================================
+
+uploads/
+downloads/
+tmp/
+temp/
+cache/
+
+# =========================================================
+# IDE / EDITORS
+# =========================================================
+
+# VS Code
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# IntelliJ / WebStorm
+.idea/
+
+# Visual Studio
+.vs/
+
+# Sublime
+*.sublime-workspace
+*.sublime-project
+
+# Vim
+*.swp
+*.swo
+
+# =========================================================
+# OS FILES
+# =========================================================
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+.directory
+
+# =========================================================
+# SECRETS / CREDENTIALS
+# =========================================================
+
+*.pem
+*.key
+*.crt
+*.cer
+*.p12
+*.pfx
+
+credentials.json
+service-account.json
+secrets.json
+
+# =========================================================
+# GENERATED DOCUMENTS
+# =========================================================
+
+*.pdf
+*.zip
+*.tar
+*.gz
+
+# =========================================================
+# LOCAL CONFIG
+# =========================================================
+
+*.local

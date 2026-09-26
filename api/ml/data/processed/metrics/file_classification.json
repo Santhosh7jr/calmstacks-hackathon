@@ -1,0 +1,11 @@
+{
+  "accuracy": 0.9640625,
+  "f1_weighted": 0.9464225338106603,
+  "classes": [
+    "doc",
+    "jpg",
+    "pdf",
+    "unknown",
+    "zip"
+  ]
+}

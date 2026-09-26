@@ -1,0 +1,10 @@
+{
+  "validation_rmse": 0.03249703680339876,
+  "baseline_corrupted_center_rmse": 0.5148757635186395,
+  "improvement_percent": 93.68837317544035,
+  "samples": 40800,
+  "bases": 13,
+  "iterations": 84,
+  "patch_size": 11,
+  "real_image_samples": 30000
+}
